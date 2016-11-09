@@ -1,0 +1,2 @@
+class Rolodex < ApplicationRecord
+end

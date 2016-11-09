@@ -1,0 +1,11 @@
+<button type="button" class="btn btn-primary">Primary</button>
+
+<h2> Here are is the key info for my contacts: </h2>
+
+<% @allcontacts.each do |contact| %>
+	
+
+<%= contact.first_name + contact.last_name %>
+
+<% end %>
+
